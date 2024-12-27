@@ -1,9 +1,14 @@
 body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            text-align: center;
+    font-family: Arial, sans-serif;
+    /* Removed background-color, we'll use a background image instead */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; 
+    margin: 0;
+    background-image: url('FB_IMG_1699333647441.jpg'); /* Add your image path here */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat;
         }
 
 header {
